@@ -1,0 +1,19 @@
+class Bird
+    def preen
+        puts
+    end
+
+    def fly
+        puts
+    end
+end
+
+class Penguin < Bird
+    def fly
+        puts
+    end
+end
+
+penguin = penguin.new
+penguin.preen
+penguin.fly

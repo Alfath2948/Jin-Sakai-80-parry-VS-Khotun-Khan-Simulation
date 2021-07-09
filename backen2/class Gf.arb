@@ -1,0 +1,24 @@
+class Gf
+    def initialize
+        puts 'Gf class'
+    end
+    def gf_method
+        puts 'Gf method call'
+    end
+end
+
+class F < Gf
+    def f_method
+        puts 'F method call'
+    end
+end
+
+class S < F
+    def initialize
+        puts 'S class'
+    end
+end
+
+son = S.new
+son.gf_method
+father = F.new
